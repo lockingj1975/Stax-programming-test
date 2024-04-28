@@ -90,3 +90,8 @@ bool StaxPayments::AppData::RemoveDataItem(const StaxData& toRemove)
   }
   return fnd;
 }
+
+int StaxPayments::AppData::GetListCount() const
+{
+  return _staxList.size();
+}

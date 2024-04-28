@@ -32,6 +32,8 @@ namespace StaxPayments
     void InsertDataItem(const StaxData& item);
     bool RemoveDataItem(int id);
     bool RemoveDataItem(const StaxData& toRemove);
+
+    int GetListCount() const;
   protected:
     std::list<StaxData> _staxList;
   };
