@@ -109,12 +109,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StaxPayments\StaxPayments.vcxproj">
-      <Project>{2d03c7ee-2516-4f70-99d7-5977fb59422e}</Project>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\StaxAppData\StaxAppData.vcxproj">
+      <Project>{cb00b400-5300-4332-9f8a-9591f9451f86}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
