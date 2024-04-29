@@ -109,7 +109,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\staxAppData\x64\debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\lib\x64\debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>staxappdata.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

@@ -1,6 +1,6 @@
 #include "pch.h"
 #include <CppUnitTest.h>
-#include "AppData.h"
+#include "..\StaxAppData\AppData.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
